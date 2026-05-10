@@ -1,0 +1,32 @@
+# Large data files — store in Google Drive, not GitHub
+*.tif
+*.tiff
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.geojson
+
+# Model weights — too large for GitHub (share via Google Drive)
+*.pth
+*.pt
+*.ckpt
+
+# Keep JSON metrics (small, important)
+!outputs/metrics/*.json
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials — NEVER commit these
+.config/earthengine/
+credentials
+*.key
+.env
