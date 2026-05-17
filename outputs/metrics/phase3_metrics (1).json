@@ -1,0 +1,10 @@
+{
+  "best_epoch": 157,
+  "best_val_f1": 0.9224137931034483,
+  "test_acc": 0.991783082485199,
+  "test_f1_flood": 0.875,
+  "test_f1_macro": 0.9353759558198811,
+  "n_nodes": 24336,
+  "n_edges": 196566,
+  "task": "binary: No Risk vs Flood Risk"
+}

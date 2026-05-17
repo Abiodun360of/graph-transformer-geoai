@@ -1,0 +1,31 @@
+{
+  "study_area": "Lokoja, Kogi State, Nigeria",
+  "coordinates": "6.4E-7.1E, 7.4N-8.1N",
+  "n_nodes": 24336,
+  "n_edges": 196566,
+  "flood_risk_nodes": 743,
+  "class_imbalance": "3.1% flood risk",
+  "data_sources": [
+    "Sentinel-1 SAR",
+    "Sentinel-2 MSI",
+    "SRTM DEM",
+    "JRC GSW",
+    "OpenStreetMap"
+  ],
+  "gat_results": {
+    "accuracy": 0.9981182795698925,
+    "flood_f1": 0.9580838323353293,
+    "macro_f1": 0.978560684213863,
+    "auc": 0.9997733516483517
+  },
+  "transformer_results": {
+    "accuracy": 0.9986559139784946,
+    "flood_f1": 0.9696969696969697,
+    "macro_f1": 0.984504842236801,
+    "auc": 0.9998454670329671
+  },
+  "improvement": {
+    "flood_f1": 0.01161313736164038,
+    "accuracy_pct": 0.053763440860210565
+  }
+}
